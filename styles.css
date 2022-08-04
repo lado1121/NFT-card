@@ -22,13 +22,20 @@ body{
 
 .card-container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 11rem;
     background-color: var(--dark-blue-card);
-    width: 17vw;
+    max-width: 17vw;
     min-height: 60vh;
     border-radius: 0.5rem;
+}
+
+.card-container > .image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 5vh;
+    min-height: 20vh;
 }
