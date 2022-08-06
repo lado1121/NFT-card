@@ -50,8 +50,12 @@ body{
     max-width: 14rem;
     min-height: 12rem;
     border-radius: 0.5rem;
+    transition: transform 0.5s linear;
 }
 
+.image-box:hover .main-image{
+    transform: translateY(-1rem) , scale(1.5);
+}
 
 
 
